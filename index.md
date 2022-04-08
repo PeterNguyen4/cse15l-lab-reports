@@ -5,6 +5,9 @@
 
 [extension.md](https://peternguyen4.github.io/cse15l-lab-reports/extension.md)
 
+[Lab Report 1](https://PeterNguyen4.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+---
+
 ![UCSD food](https://media4.giphy.com/media/l44QjgeQ5ium91n9K/giphy.gif)
 
 ```
