@@ -58,5 +58,11 @@ To test the validity of this copying process, I have logged into `ieng6` and ran
 
 ![runningTests](l3_10.png)
 
+By entering the following command
+```
+scp -r . ieng6:~/testDirec; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; ssh ieng6; cd testDirec; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
+```
+we are able to copy a directory through scp and test it all in one line!
 
+![oneLiner](l3_11.png)
 
