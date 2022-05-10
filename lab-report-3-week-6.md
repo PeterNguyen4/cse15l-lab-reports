@@ -29,7 +29,7 @@ To show this streamlining in action, lets copy a local file to the remote server
 * By remotely connecting with `ssh ieng6` and entering `ls` into the terminal, we see that `test-file.md` was sucessfully copied into ssh
 
 ---
-## Github Access from ieng6
+## Github Access from `ieng6`
 
 Here is the SSH key on Github, having copied the information from the `id_rsa.pub` file.
 
@@ -38,3 +38,25 @@ Here is the SSH key on Github, having copied the information from the `id_rsa.pu
 Inside the ssh directory, we can also see the *public* key (`id_rsa`) as well as the *public* one (`id_rsa.pub`) on my user account
 
 ![localKey](l3_6.png)
+
+By setting up an SSH key in Github, we are now able to use commands like `git add` and `git push origin main` through the terminal, as opposed to Github Desktop.
+
+![gitCommands](l3_7.png)
+
+We can see the **git diff** [here](https://github.com/PeterNguyen4/cse15l-lab-reports/commit/8fe2ab4dde7280aaba56d2271beab5daa37f8987), in which I have created a new file and added some text.
+
+---
+
+## Copy whole directories with `scp -r`
+
+In this final section, we are able to copy a whole directory ***recursively*** with the command `scp -r . ieng6:markdown-parse`
+
+![copyDirectory](l3_8.png)
+![copyDirectory2](l3_9.png)
+
+To test the validity of this copying process, I have logged into `ieng6` and ran the tests here:
+
+![runningTests](l3_10.png)
+
+
+
