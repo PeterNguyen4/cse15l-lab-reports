@@ -45,6 +45,9 @@ By setting up an SSH key in Github, we are now able to use commands like `git ad
 
 We can see the **git diff** [here](https://github.com/PeterNguyen4/cse15l-lab-reports/commit/8fe2ab4dde7280aaba56d2271beab5daa37f8987), in which I have created a new file and added some text.
 
+By creating another key on `ieng6` through `ssh-keygen` and adding it to Github, we are also able to run git commands while logged into the remote server!
+![ieng6Git](l3_12.png)
+
 ---
 
 ## Copy whole directories with `scp -r`
