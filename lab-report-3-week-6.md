@@ -35,7 +35,7 @@ Here is the SSH key on Github, having copied the information from the `id_rsa.pu
 
 ![githubKeyLinked](l3_5.png)
 
-Inside the ssh directory, we can also see the *public* key (`id_rsa`) as well as the *public* one (`id_rsa.pub`) on my user account
+Inside the ssh directory, we can also see the *private* key (`id_rsa`) as well as the *public* one (`id_rsa.pub`) on my user account
 
 ![localKey](l3_6.png)
 
